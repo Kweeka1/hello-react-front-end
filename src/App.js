@@ -1,8 +1,9 @@
-import React from "react";
-import { useDispatch } from "react-redux";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Greeting from "./components/Greeting";
-import { fetchGreeting } from "./features/greeting/greetingSlice";
+import React from 'react';
+import { useDispatch } from 'react-redux';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Greeting from './components/Greeting';
+import { fetchGreeting } from './features/greeting/greetingSlice';
+import './app.css';
 
 const App = () => {
   const dispatch = useDispatch();
